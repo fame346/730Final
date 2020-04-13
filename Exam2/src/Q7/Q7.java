@@ -14,17 +14,10 @@ public class Q7 {
 		CinnamonRoll CR1 = new CinnamonRoll(1.99, "Doritos", "1/15/2021");
 		CinnamonRoll CR2 = new CinnamonRoll(2.49, "Regular", "2/15/2019");
 		CinnamonRoll CR3 = new CinnamonRoll(9.99, "Espresso infused", "6/1/2020");
-		Food.add(C1);
-		Food.add(C2);
-		Food.add(C3);
-		Food.add(B1);
-		Food.add(B2);
-		Food.add(B3);
-		Food.add(CR1);
-		Food.add(CR2);
-		Food.add(CR3);
+		Food.add(C1); Food.add(C2);Food.add(C3);Food.add(B1);Food.add(B2);
+		Food.add(B3);Food.add(CR1);Food.add(CR2);Food.add(CR3);
 		for (Q7 f: Food) {
-			System.out.println("Price: "f.getPrice() + " " + f.getDescription() + " " + f.getSellByDate());
+			System.out.println("Price: " f.getPrice() + "Description: " + f.getDescription() + "SellByDate: " + f.getSellByDate());
 			}
 		}
 }
